@@ -1,0 +1,25 @@
+---
+title: "eds212-day3-vector-task"
+author: "Peter Menzies"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+vec_a <- c(1, 6)
+
+vec_b <- c(2, 4)
+
+add_vec <-  vec_a + vec_b
+
+sub_vec <- vec_b - vec_a
+
+scal_vec <- 4 * vec_a
+
+dot_vec <- vec_a %*% vec_b
+```
+
